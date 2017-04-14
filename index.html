@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Browser APIs at your disposal</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+		<meta charset="utf-8">
+	  <link rel="icon" type="image/ico" href="favicon.png" />
+		<meta name="keywords" content="html5, css3, javascript, gulp, sass, media-queries, feature testing, codices" />
+		<meta name="description" content="Browser APIs at your disposal" />
+		<meta name="author" content="donLucho" />	
+		<link media="all, screen, projection" href="css/all.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container clearfix">			
+			<header>
+				<h1>Media Queries &amp; Responsive Grid</h1>
+			</header>
+			<div class="row clearfix">
+				
+				<div class="span-one-third">
+					<h2> Device measurements, capabilities &amp; limitations </h2>
+					<p>
+					<strong> Device Pixel Ratio </strong><span class="dpr" id="DPR"> &nbsp; </span>
+					<strong> matchMedia </strong><span class="matchMedia" id="If_matchMedia"> &nbsp; </span>
+					<strong> Audio extension </strong><span id="audCDX"> &nbsp; </span>
+					<strong> Video extension </strong><span id="vidCDX"> &nbsp; </span>
+
+					<strong> User Agent </strong><span class="snifferAgent" id="userAgent"> &nbsp; </span> 
+					
+					<strong> innerWidth (window) </strong><span class="Glow" id="innerWidth"> &nbsp; </span> 
+					<strong> Page Width </strong><span class="page" id="PageWidth"> &nbsp; </span>
+					<strong> Width (viewport) </strong><span class="viewPort" id="ViewportWidth"> &nbsp; </span> 
+					<strong> Device-Width </strong><span class="screen" id="DeviceWidth"> &nbsp; </span> 
+
+					<strong> innerHeight (window) </strong><span class="Glow" id="innerHeight"> &nbsp; </span> 
+					<strong> Page Height </strong><span class="page" id="PageHeight"> &nbsp; </span> 
+					<strong> Height (viewport) </strong><span class="viewPort" id="ViewportHeight"> &nbsp; </span> 
+					<strong> Device-Height </strong><span class="screen" id="DeviceHeight"> &nbsp; </span>
+					</p>
+
+					<h2> Performance APIs </h2>
+					<p>
+					<strong> Performance </strong><span id="If_Performance"> &nbsp; </span>
+					</p>
+					
+					<p>
+					<strong> Now method </strong><span id="perfnow"> &nbsp; </span>
+					</p>
+					
+					<p>
+					<strong> Performance Timing </strong><span id="perftim"> &nbsp; </span>
+					</p>
+					<p>
+					<strong> </strong><span id="timinglog"> &nbsp; </span>
+					</p>
+					
+					<p>
+					<strong> Performance Memory </strong><span id="perfmem"> &nbsp; </span>
+					</p>
+					<p>
+					<strong> </strong><span id="memorylog"> &nbsp; </span>
+					</p>
+
+				</div>
+
+				<div class="span-one-third">
+					<h2> Ubiquitous APIs </h2>
+					<p>
+					<strong> ES5 Promises </strong><span id="promise"> &nbsp; </span>
+					<strong> Service Worker </strong><span id="svcwrkr"> &nbsp; </span>
+					<strong> fetch object </strong><span id="fetch"> &nbsp; </span>
+					<strong> History </strong><span id="history"> &nbsp; </span>
+					<strong> geolocation </strong><span id="geolo"> &nbsp; </span>
+					<strong> Web Storage </strong><span id="websto"> &nbsp; </span>
+					<!-- <strong> Web Worker </strong><span id="webworker"> &nbsp; </span> -->
+					<strong> WebSocket </strong><span id="websocket"> &nbsp; </span>
+					<strong> Page Visibility </strong><span id="pageviz"> &nbsp; </span>
+					<strong> Drag &amp; Drop </strong><span id="dragdrop"> &nbsp; </span>
+					</p>
+
+					<p>
+					<strong> Touch </strong><span id="If_Touch"> &nbsp; </span> 			
+					<strong> Device Orientation </strong><span id="If_DeviceOrientation"> &nbsp; </span> 
+					<strong> Device Motion </strong><span id="SupWithDevMotion"> &nbsp; </span>
+					<strong> listenForDeviceMovement </strong><span id="SupWithMoveListen"> &nbsp; </span>
+					</p>
+
+					<p>
+					<strong> rAF </strong><span id="storaf"> &nbsp; </span>
+					</p>
+
+					<p>
+					<strong> Indexed DB </strong><span id="idxdb"> &nbsp; </span>
+					</p>
+					
+					<p>
+					<strong> getUserMedia </strong><span id="getUserMedia"> &nbsp; </span>
+					<strong> URL </strong><span id="GLOWurl"> &nbsp; </span>
+					</p>
+
+					<p>
+					<strong> requestFullScreen </strong><span id="rqstfullscreen"> &nbsp; </span>
+					<strong> cancelFullScreen </strong><span id="cnclfullscreen"> &nbsp; </span>
+					<strong> fullscreen properties </strong><span id="fullscrn"> &nbsp; </span>
+					</p>
+
+					<h2> Hit or Miss Technologies </h2>
+					<p>
+					<strong> html imports </strong><span id="imports"> &nbsp; </span>
+					<strong> ShadowDOM </strong><span id="shdwdom"> &nbsp; </span>
+					<strong> html templates </strong><span id="templates"> &nbsp; </span>
+					<strong> Custom elements </strong><span id="custelmts"> &nbsp; </span>
+					</p>
+					
+					<p>
+					<strong> Web SQL </strong><span id="websql"> &nbsp; </span>
+					</p>
+					
+				</div>
+
+				<div class="span-one-third">
+					<h2> FileReader, FileWriter, FileSystem APIs </h2>
+					<p>
+					<strong> File Reader </strong><span id="ReadManipulateStats"> &nbsp; </span>
+					<strong> Blob </strong><span id="DeprecatedSpecStats"> &nbsp; </span>
+					</p>
+
+					<p>
+					<strong> FileWriter </strong><span id="CreateWriteStats"> &nbsp; </span>
+					<strong> LocalFileSystem </strong><span id="locfilsys"> &nbsp; </span>
+					<strong> DirectoryReader </strong><span id="dirrea"> &nbsp; </span>
+					<strong> DirectoryEntry </strong><span id="m_dirent"> &nbsp; </span>
+					<strong> FileEntry </strong><span id="m_filent"> &nbsp; </span>
+					</p>
+
+					<p>
+					<strong> requestFileSystem </strong><span id="m_rfsys"> &nbsp; </span>
+					<strong> requestFileSystemSync </strong><span id="m_rfssync"> &nbsp; </span>
+					<strong> resolveLocalFileSystemURL </strong><span id="m_rlfsurl"> &nbsp; </span>
+					<strong> resolveLocalFileSystemSyncURL </strong><span id="m_rlfsync"> &nbsp; </span>
+					<strong> storageInfo </strong><span id="m_stoinfo"> &nbsp; </span>
+					<strong> getAsEntry method </strong><span id="m_getasentry"> &nbsp; </span>
+					</p>
+
+					<h2> Extra: CSS &amp; JS Implementations</h2>
+					<p>
+						<strong> CSS3 tap&#45;highlight&#45;color </strong><span id="cssthc"> &nbsp; </span>
+						<strong> JS tap&#45;highlight&#45;color </strong><span id="jsthc"> &nbsp; </span>
+					</p>
+
+					<p>
+						<strong> CSS3 Animation keyframes </strong><span id="cssanimkeyframes"> &nbsp; </span>
+						<strong> CSS3 Animation </strong><span id="cssanimation"> &nbsp; </span>
+						<strong> JS Animation </strong><span id="jsanimation"> &nbsp; </span>
+					</p>
+
+					<p>
+						<strong> CSS3 Transform </strong><span id="csstransform"> &nbsp; </span>
+						<strong> JS Transform </strong><span id="jstransform"> &nbsp; </span>
+					</p>
+
+					<p>
+						<strong> CSS3 Transition </strong><span id="csstransition"> &nbsp; </span>
+						<strong> JS Transition </strong><span id="jstransition"> &nbsp; </span>
+					</p>
+					
+					<p>
+						<strong> CSS3 box&#45;shadow, text&#45;shadow &amp; border&#45;radius </strong><span id="csscommon"> &nbsp; </span>
+						<strong> JS box&#45;shadow, text&#45;shadow &amp; border&#45;radius </strong><span id="jscommon"> &nbsp; </span>
+					</p>
+
+				</div>
+			</div>
+			<footer class="clearfix" id="siteinfo">
+				<p>Presented by&hellip; Hi nice to meet you&hellip;??? </p>
+			</footer>
+		</div>
+		<script type="text/javascript" src="js/all.min.js"></script>		
+	</body>
+</html>
