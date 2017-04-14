@@ -1,0 +1,29 @@
+{
+  "name": "apis",
+  "authors": [
+    "donLucho <donluchodev@outlook.com>"
+  ],
+  "description": "Browser APIs at your disposal",
+  "main": "index.html",
+  "keywords": [
+    "html5",
+    "javascript",
+    "css3",
+    "gulp",
+    "sass",
+    "media-queries",
+    "feature testing",
+    "codices"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/donLucho/apis#readme",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {}
+}

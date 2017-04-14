@@ -1,0 +1,170 @@
+@media (min-width: 1024px) and (max-width: 1449px), (min-width: 1601px), only screen and (max-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+	body { 	
+		// &:after { content: "Between 1024px and 1449px OR 1601px++ OR iPad panoramic."; background-color: rgba( 190 , 105 , 104 ,0.7 ); }
+	}
+} 
+
+@media only screen and (max-width: 768px) and (max-device-width: 768px) and (orientation: portrait), ( max-width: 1023px ) {
+	body {
+		// &:after { content: "iPad portrait @ 768px / 768 to 1023px"; background-color: rgba( 147 , 104 , 190 , 0.7 ); }
+	}
+
+	.container { 
+		
+		header { 
+			margin: 30px 0 20px 0;
+
+			h1, h2 {}
+			h1 { font-size: 250%; }
+			h2 {}
+		} // END header
+
+		.row { 
+			.span-one-third {
+				width: 97%; 
+				
+				h2 {
+					// font-size: 120%;
+					// font-size: 210%;
+					font-size: 225%;
+				}
+
+				p {
+					margin-left: 1%; padding-bottom: 15px; width: 92%; 
+
+					// font-size: 95%;
+					font-size: 185%;
+
+					strong + span {}
+				}
+			}
+		} // END .row
+		#siteinfo { 		
+			&:hover {}  
+		} // END #siteinfo
+	} // END .container
+}
+
+@media only screen and (max-width: 480px) and (max-device-width: 480px) and (orientation: landscape) , (max-width: 767px) {
+	
+	body {
+		// &:after { content: "iPhone panorama @ 480px / 480 to 767px"; background-color: rgba( 104,190,190,0.7 ); }
+	}
+
+	.container { 
+		header { 
+			margin: 20px 0 15px 0;
+
+			h1, h2 {}
+			h1 {}
+			h2 {}
+		} // END header
+		.row { 
+			.span-one-third {
+				h2 { font-size: 175%; }
+				p { 
+					
+					font-size: 130%;
+
+					strong + span {}
+				}
+			}
+		} // END .row
+		#siteinfo { 		
+			&:hover {}  
+		} // END #siteinfo
+	} // END .container
+}
+
+@media only screen and (max-width: 320px) and (max-device-width: 320px) and (orientation: portrait), (max-width: 479px) {
+
+	body {
+		// &:after { content: "iPhone portrait @ 320px / 320 to 479px"; background-color: rgba( 147,190,104,0.7); }
+	}
+
+	.container { 
+		header {
+			margin: 10px 0 5px 0;
+
+			h1, h2 {}
+			h1 { font-size: 192%; padding-left: 3%;  }
+			h2 {}
+		} // END header
+		.row { 
+			.span-one-third {
+				h2 { font-size: 140%; }
+				p { 
+					// font-size: 73%; 
+					// font-size: 130%;
+					font-size: 118%;
+
+					strong + span {}
+				}
+			}
+		} // END .row
+		#siteinfo { 		
+			&:hover {}  
+		} // END #siteinfo
+	} // END .container
+}
+
+@media (max-width: 319px) {
+
+	body {
+		// &:after { content: "319px or less..."; background-color: rgba( 190 , 105 , 104 ,0.7 ); } 
+	}
+
+	.container { 
+		margin: 0; 
+
+		header { 
+			h1, h2 {}
+			
+			h1 { font-size: 120%; }
+
+			h2 {}
+		} // END header
+		.row { 
+			.span-one-third {
+				
+				h2 { font-size: 108%; }
+
+				p {
+					font-size: 92%;
+					
+					strong + span {}
+				}
+			}
+		} // END .row
+		#siteinfo { 		
+			&:hover {}  
+		} // END #siteinfo
+	} // END .container
+}
+
+@media (min-width: 1450px) and (max-width: 1600px) {
+
+	body {
+		// &:after { content: "Between 1450px and 1600px"; background-color: rgba( 190 , 105 , 104 ,0.7 ); }
+	}
+
+	.container { 
+		header { 
+			h1, h2 {}
+			h1 {}
+			h2 {}
+		} // END header
+		.row { 
+			.span-one-third {
+				h2 {}
+				p { 
+					strong + span {}
+				}
+			}
+		} // END .row
+		#siteinfo { 		
+			&:hover {}  
+		} // END #siteinfo
+	} // END .container
+}

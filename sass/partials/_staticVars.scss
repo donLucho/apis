@@ -1,0 +1,37 @@
+// -------------------------------------------- ALL POSSIBLE static VARIABLES  ---------------------
+
+// ---------------------------------------- FONT STACKS ---------------------
+
+	// WEB FONTs 
+	$fnt_Blockquote:	"Bitstream Vera Sans Mono", monospace;
+
+// ---------------------------------------- HEX VALUES ---------------------	
+	// WHITE, BLACK
+		$col_blackProper: #000000;
+		$col_whiteProper: #FFFFFF;
+
+	// RED
+		$col_redProper: #FF0000;
+
+	// ORANGE
+		$col_orangeProper: #FF9900;
+
+	// YELLOW
+		$col_yellowProper: #FFFF00;
+
+	// GREEN
+		$col_greenProper: #00FF00;
+		$col_contrastGrn: #216B21;
+
+// ---------- RGBAs --------------------------------------
+
+//  NEW PINK FOR BACKGROUND SELECTION AND COLOR COMBO etc
+		$col_slctPink_active: rgba( 255,149,239,0.8 ); 
+		// #FF95EF vivrant pink 
+
+//  NEW PINK FOR BACKGROUND SELECTION AND COLOR COMBO etc
+		$col_slctBlue_active: rgba( 150,235,255,0.8 ); 
+		// #96EBFF vivrant baby-blue 
+
+	//  BABY BLUE
+		$col_skyBlue_alfa: rgba( 105,190,190,0.2 ); /* #69bebe */
